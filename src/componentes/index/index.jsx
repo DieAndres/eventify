@@ -76,7 +76,7 @@ export default function Index() {
                       <h3>Titulo</h3>
                     </div>
                     <div>
-                      <p>Descripción</p>
+                      <p>Descripciónp</p>
                     </div>
                     <div>
                       <button type="button" class="btn btn-primary">VER</button>
