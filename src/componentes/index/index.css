@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@1,700&family=Merriweather:ital,wght@1,900&family=Poppins:wght@300&family=Ubuntu:wght@700&display=swap');
+
+/*login */
+.login,
+.image {
+  min-height: 100vh;
+}
+/*utilidad */
+.link-hover-none:hover{
+  text-decoration: none;
+}
+.app-main{
+  background-color: rgba(16 18 27 / 40%);
+  max-height: 100vh;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url('../../utilidades/fondo-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: background-position 0.5s ease-out;
+  width: 100%;
+
+}
+:root{
+  height: 100%;
+}
+.mrpx-6 {
+  margin-right: 6px;
+}
+.bg-main{
+ background-color:  rgba(16 18 27 / 40%);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ overflow: scroll;
+ max-height: 90vh;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.header-main{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    background-image: url('https://www.transparenttextures.com/patterns/cubes.png'), linear-gradient(to right top, #cf4af3, #e73bd7, #f631bc, #fd31a2, #ff3a8b, #ff4b78, #ff5e68, #ff705c, #ff8c51, #ffaa49, #ffc848, #ffe652);
+    border-radius: 14px;
+    padding: 20px 40px;
+    height: 15rem;
+}
+.text-header-main{
+  color: #FFFFFF;
+  width: 60%;
+}
+.btncon-ingresar{
+  width: 100%;
+}
+.lglet {
+  font-family: 'Kodchasan', sans-serif;
+  color: #156282;
+  font-size: 50px;
+  font-weight: 900;
+}
+.lglet2 {
+  font-family: 'Kodchasan', sans-serif;
+  color: #FFFFFF;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.form-group-lg {
+  /* overflow: hidden; */
+  margin-bottom: 0;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 10px 15px;
+  position: relative;
+  width: 70%;
+  justify-content: start;
+}
+
+.fa-icon input {
+  padding-right: 20px;
+  border-bottom-color: transparent;
+}
+
+.form-group-lg input::placeholder {
+  color: #adadad;
+}
+
+.focus-input100:after {
+  font-family: "Font Awesome 5 Free";
+  display: flex;
+  align-items: center;
+  color: #adadad;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.incon-mail:after {
+  content: "\f0e0";
+}
+
+.incon-pass:after {
+  content: "\f023";
+}
+
+.form-group-lg .focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #156282;
+  transition: width 0.4s ease;
+}
+
+
+.fa-icon input {
+  padding-right: 20px;
+  border-bottom-color: transparent;
+}
+
+.form-group-lg label {
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  text-align: left !important;
+}
+
+.form-group-lg input {
+  border: none;
+  width: 100%;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  font-family: inherit;
+  color: black;
+}
+
+.form-group-lg input::placeholder {
+  color: #adadad;
+}
+
+.form-group-lg.focused .focus-input100::before {
+  width: 100%;
+}
+
+.form-group-lg.focusedicon .focus-input100::after {
+  color: #156282;
+}
+
+.btnloging {
+  background-color: #156282;
+  width: 70%;
+  color: #FFFFFF;
+  border-radius: 20px;
+}
+
+.btnloging:hover {
+  background-color: #104b64;
+  color: #FFFFFF;
+}
+
+.login-social {
+  color: #FFFFFF;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin: 5px;
+  width: 50px;
+  height: 50px;
+}
+.container-main{
+  width: 80%;
+}
+.card-event{
+  margin: 0;
+  padding: 1rem 2rem;
+  border: 1px solid #ffffff22;
+  background-color: #25282c;
+  background: linear-gradient(0deg, #282c34 0%, rgba(40, 29, 49, 0.5) 100%);
+  box-shadow: 0 2px 6px 2px #00000088;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(7px);
+  color: #FFFFFF;
+  transition: .7s all;
+}
+.card-event:hover{
+  background-color: rgba(16 18 27 / 40%);
+  transform: scale(1.015);
+  
+}
+.li-cars-event{
+padding: 2rem 4rem;
+}
+.login-social:hover {
+  background-color: #333;
+}
+
+.bg1 {
+  background-color: #ea4335;
+}
+
+.bg2 {
+  background-color: #3b5998;
+}
+
+.bg3 {
+  background-color: #1da1f2;
+}
+
+.men-main{
+  overflow: hidden;
+}

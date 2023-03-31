@@ -1,0 +1,116 @@
+.navmenhed{
+    border-bottom: 1px solid rgba(113 119 144 / 25%);
+    max-height: 10vh;
+  }
+  /* Estilo para el fondo del menú */
+  .menu {
+    border-right: 1px solid  rgba(113 119 144 / 25%);
+    /* 50% de opacidad */
+    border-radius: 0;
+    /* Bordes redondeados */
+    padding: 10px;
+    /* Espacio interno */
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    padding: 1rem 3rem;
+    margin: 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  
+  /* Estilo para los elementos del menú */
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .menu a {
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .liulnavmen {
+    display: block;
+    color: #FFFFFF;
+    text-align: left;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+  
+  .title-menu{
+    color: rgb(113 119 144 / 78%);
+    font-weight: 700;
+  }
+  .inputsar{
+    background-color: transparent !important;
+    border: none;
+    outline: none;
+    color: #e9e8e8;
+  }
+  .inputsar:focus{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none !important;
+    color: #f9fafb;
+  }
+  .searchcont{
+    background-color: #14162b;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 3px 5px;
+    color: #f9fafb;
+    width: 300px;
+  } 
+  .inputsar::placeholder{
+    color:rgb(113 119 144 / 78%); 
+  }
+  .searchcont i{
+    color:rgb(113 119 144 / 78%); 
+  }
+  .ulmenu li {
+    border-radius: 6px;
+  }
+  .ulmenu li:hover{
+    background-color: rgba(12 15 25 / 30%);
+    color: #FFFFFF;
+  }
+  /*header avatar*/
+  .toggle-avatar{
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  .toggle-avatar img{
+    border: 1px solid #f9fafb;
+  }
+  .avatar {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .img-avatar{
+    border-radius: 50%;
+    border-color: #f9fafb;
+  }
+  .dropavatar{
+    background-color: #14162b;
+  }
+  .dropavatar a{
+   border-radius: 0;
+  }
+  .conseadrop{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+  }
